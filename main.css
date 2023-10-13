@@ -1,0 +1,109 @@
+body{
+    background-image: url('https://wp-s.ru/wallpapers/12/4/546705482060088/izobrazhenie-sdelannoe-v-ochen-yarkij-den-na-nem-est-bliki.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+}
+
+a{
+    cursor: pointer;
+}
+
+.response_card{
+    border-style: solid;
+    box-shadow: 0 0 15px green;
+    border-radius: 50px;
+    font-size: large;
+    margin: 10px;
+    padding: 30px;
+    max-width: 250рх;
+    min-height: 300px;
+}
+
+main{
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.response_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-eventy;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+}
+
+.photo1{
+    background: url("https://fotokonkurs.ru/cache/comment_image_big/comments/2013/09/26/475251.jpg") center no-repeat;
+    width: 150px;
+    height: 150px;  
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:450px){
+    .photo1{
+        display: none;
+}
+}
+
+.photo2{
+    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e13d9d15-dcb6-4628-87be-1ce348512ef6/1920x") center no-repeat;
+    width: 150px;
+    height: 150px;  
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:450px){
+    .photo2{
+        display: none;
+}
+}
+
+.photo3{
+    background: url("https://o-tendencii.com/uploads/posts/2023-04/1680485588_o-tendencii-com-p-olga-buzova-stil-odezhdi-foto-23.jpg") center no-repeat;
+    width: 150px;
+    height: 150px;  
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:450px){
+    .photo3{
+        display: none;
+}
+}
+
+.photo4{
+    background: url("https://sun9-37.userapi.com/impf/c851128/v851128112/1d6d2a/G6FcF3TibOI.jpg?size=320x436&quality=96&sign=9a9ee6bfbd2faccdf48e9999bca40894&c_uniq_tag=5TntIfopTB2C9wWonIAZE6i3lKUdZDXJhCag4VZm6lE&type=album") center no-repeat;
+    width: 150px;
+    height: 150px;  
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:450px){
+    .photo4{
+        display: none;
+}
+}
+
+.photo5{
+    background: url("https://st21.styapokupayu.ru/images/blog_posts/covers/000/249/879_large.jpg?1572008357") center no-repeat;
+    width: 150px;
+    height: 150px;  
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:450px){
+    .photo5{
+        display: none;
+}
+}
